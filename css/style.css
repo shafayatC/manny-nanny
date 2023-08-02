@@ -89,7 +89,14 @@ h4 {
 .shadow-custom {
     box-shadow: 0px 3px 6px #00000029;
 }
-
+.paralax {
+    display: none;
+	height: 500px;
+	width: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
 /*===== default css style end ====*/
 /*===== menu style start ====*/
 .sticky {
@@ -283,10 +290,7 @@ h4 {
     gap: 5px;
 }
 
-.readmoreContent h3 {
-    font-size: 20px;
-    font-weight: bold;
-}
+
 
 .rdContent {
     font-size: 16px;
@@ -588,11 +592,37 @@ h4 {
 /*small desk */
 
 @media only screen and (min-width: 978px) {
+    h3 {
+        font-size: 25px;
+    }
     .header {
         /* width: 960px; */
     }
+    .divWrap {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
     .divWrap .flex-colum-30 {
         flex-direction: row;
+    }
+    #logo a,.sticky #logo a {
+        width: 120px;
+    }
+    #logo img, .sticky #logo img {
+        width: 100%;
+    }
+    .mobImg{display: none;}
+    .paralax {display: block;}
+    .pageTitle {
+        padding-bottom: 60px;
+    }
+    .rdContent {
+        line-height: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .readMoreWithImg h3 {
+        padding-bottom: 15px;
     }
     .footer {
         display: grid;
