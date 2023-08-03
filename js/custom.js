@@ -1,5 +1,5 @@
-const menuBtn = document.getElementById("mobileMenu"); 
-const menu = document.getElementById("menuWrap"); 
+const menuBtn = document.getElementById("mobile-menu"); 
+const menu = document.getElementById("menu-wrap"); 
 
 const stick_1 = document.getElementById("stick_1");
 const stick_2 = document.getElementById("stick_2");
@@ -33,8 +33,7 @@ menuBtn.addEventListener("click", ()=>{
 
 
 /* header sticky start */
-const header = document.getElementById("headerWrap");
-// Get the header element
+const header = document.getElementById("header-wrap");
 
 // Get the initial position and height of the header
 const headerOffsetTop = header.offsetTop;
@@ -48,6 +47,7 @@ function handleScroll() {
   // Calculate the ending position of the header
   const endingPosition = headerOffsetTop + headerHeight;
 
+  console.log("scrol pos : " + scrollPosition + " endPos : " + endingPosition);
   // Check if the scroll position is within the range of the header's ending position
   if (scrollPosition >= endingPosition) {
     // If yes, add a class to the header to make it sticky
