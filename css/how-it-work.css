@@ -1,0 +1,78 @@
+/*==== tab style start ====*/
+.tab-content-area {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.tab-btn-wrap {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.tab-btn {
+	background: transparent;
+	font-size: 16px;
+	line-height: 20px;
+	padding-bottom: 6px;
+    border: none;
+
+    color: #484848;
+	border-bottom: 2px solid #fbfbfb;
+
+}
+.tab-btn.active {
+    font-weight: bold;
+	color: #C81E69;
+	border-bottom: 2px solid #C81E69;
+}
+.tabs {display: none;}
+.tabs.active {display: block;}
+
+.act-count {
+	background: #C81E69;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 16px;
+	font-family: glober-semiBold;
+	line-height: 19px;
+	padding: 4px 9px 1px 8px;
+}
+.act-title {
+	padding-left: 12px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #000;
+}
+.accordion-item {
+	border: thin solid #E1E6E6 !important;
+	border-radius: 5px;
+	box-shadow: 0px 3px 6px #00000029;
+}
+.accordion-button {
+	border-radius: 5px;
+}
+.accordion-custom {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.accordion-button {
+	padding: 12px 16px;
+}
+.accordion-button:focus {
+	border: none !important;
+	box-shadow: none !important;
+	background: transparent !important;
+}
+.accordion-button:not(.collapsed) {
+	background: #ffff;
+	box-shadow: none;
+}
+.accordion-button::after {
+	background-image: url('../assets/icons/icons-final-colors-24x24/icon_arrow-down.svg') !important;
+}
+.accordion-body {
+	padding: 3px 16px 20px 16px;
+}
+
+/*==== tab style end ====*/
