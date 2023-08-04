@@ -135,15 +135,15 @@ p {  font-size: 16px;
     /* Adjust the blur amount as desired */
 }
 
-.sticky #logo {
+.sticky .logo {
     /* justify-content: end; */
 }
 
-.sticky #logo img {
+.sticky .logo img {
     width: 130px;
 }
 
-#header-wrap {
+.header-wrap {
     position: relative;
 }
 
@@ -163,7 +163,7 @@ p {  font-size: 16px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
-#logo {
+.logo {
     flex-grow: 1;
     color: #fff;
     font-size: 23px;
@@ -173,11 +173,11 @@ p {  font-size: 16px;
     flex-direction: row;
 }
 
-#logo b {
+.logo b {
     color: #6EBF8B;
 }
 
-#navbar-wrap {
+.navbar-wrap {
     flex-grow: 3;
 }
 
@@ -257,7 +257,7 @@ p {  font-size: 16px;
     border-bottom: none;
 }
 
-#navbar-wrap {
+.navbar-wrap {
     flex-grow: 1;
     display: flex;
     justify-content: end;
@@ -277,7 +277,7 @@ p {  font-size: 16px;
 }
 /*==== menu style end ====*/
 /*=== content body start ====*/
-#content-wrap {
+.content-wrap {
     display: flex;
     flex-direction: column;
     margin-top: -35px;
@@ -379,7 +379,7 @@ p {  font-size: 16px;
 /*=== content body end ====*/
 
 /*=== footer start===*/
-#footer-wrap {
+.footer-wrap {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -423,11 +423,13 @@ p {  font-size: 16px;
 @media only screen and (max-width: 576px) {
 
     /*=== header & menu start ====*/
-    #logo {justify-content: center;}
-    .sticky #logo {justify-content: end;}
+    .logo {justify-content: center;}
+    .sticky .logo {justify-content: end;}
     .menu-list a {color: #484848;}
     #menu-wrap {padding-bottom: 30px;}
     #menu-wrap::after {bottom: 25px;}
+    /*=== header & menu end ====*/
+    .mob-img {padding: 0;}
 }
 @media only screen and (min-width: 577px) and (max-width: 769px) {
     
@@ -462,10 +464,10 @@ p {  font-size: 16px;
         display: grid;
         grid-template-columns: 50% 50%;
     }
-    #logo a,.sticky #logo a {
+    .logo a,.sticky .logo a {
         width: 120px;
     }
-    #logo img, .sticky #logo img {
+    .logo img, .sticky .logo img {
         width: 100%;
     }
     .mob-img{display: block;}
