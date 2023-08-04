@@ -14,6 +14,7 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body>
@@ -21,38 +22,38 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> -->
-    <section id="headerWrap">
+    <section id="header-wrap" class="header-wrap">
         <div class="container">
             <div class="row">
                 <div class="header">
-                    <div id="logo">
+                    <div class="logo">
                         <a href="#">
                             <img src="./assets/img/Logo.svg" alt="Manny Nanny Logo"/>
                         </a>
                     </div>
-                    <div id="navbarWrap">
-                        <div id="mobileMenu">
+                    <div class="navbar-wrap">
+                        <div id="mobile-menu">
                             <img id="stick_1" src="./assets/icons/icons-header-big/icon_menu.svg" alt="menu icon"/>
                             <img id="stick_2" class="hidden" src="./assets/icons/icons-header-big/icon_close-big.svg" alt="close icon" />
                         </div>
-                        <div id="menuWrap" class="shadow-custom">
-                            <ul class="menuList">
+                        <div id="menu-wrap" class="shadow-custom">
+                            <ul class="menu-list">
                                 <li><a href="#">Homepage</a></li>
                                 <li><a href="#" class="active">For families</a></li>
                                 <li><a href="#">For mannies and nannies</a></li>
                                 <li><a href="#">How it works</a></li>
                             </ul>
-                            <ul class="menuList">
+                            <ul class="menu-list">
                                 <li><a href="#">Contact</a></li>
                                 <li><a href="#">About us</a></li>
                                 <li><a href="#">Academy</a></li>
                                 <li><a href="#">Company Events</a></li>
                             </ul>
-                            <ul class="menuList">
+                            <ul class="menu-list">
                                 <li><a href="#">Franchise</a></li>
                                 <li><a href="#">Diversity and Inclusion</a></li>
                             </ul>
-                            <ul class="menuList">
+                            <ul class="menu-list">
                                 <li><a href="#">Log in</a></li>
                             </ul>
                         </div>
@@ -61,20 +62,23 @@
             </div>
         </div>
     </section>
-    <section id="contentWrap">
-        <div class="topImgWrap">
-            <img class="mobImg" src="./assets/img/header_homepage.jpg" alt="Lorem Ipsum is simply dummy text" />
-            <div class="paralax" style="background-image: url(./assets/img/header_homepage.jpg);"></div>
+    <section id="content-wrap" class="content-wrap">
+        <div class="top-img-wrap">
+            <div class="container ful-image">
+                <div class="row">
+                    <img class="mob-img" src="./assets/img/header_homepage.jpg" alt="Lorem Ipsum is simply dummy text" />
+                </div>
+            </div>
         </div>
-        <div class="contentBody">
+        <div class="content-body">
             
-            <div class="divWrap">
+            <div class="div-wrap">
                 <div class="container">
                     <div class="row">
-                        <h2 class="pageTitle">Homepage</h2>
-                        <div class="readmoreContent">
+                        <h2 class="page-title">Homepage</h2>
+                        <div class="read-more-content">
                             <h3>In good Hands</h3>
-                            <div class="rdContent">
+                            <div class="rd-content">
                                 <p>Parenting is all too often very time-consuming. The offspring wants to be well cared
                                     for
                                     around the clock. Fortunately, there are helping hands to lighten the load — just
@@ -83,53 +87,53 @@
                                     free
                                     space for parents and babysitting jobs: we help you find each other!</p>
                             </div>
-                            <div class="readmoreBtn">
-                                <button>Read more <img src="./assets/icons/icons-black-24x24/icon_more.svg" alt="read more"/></button>
+                            <div class="read-more-btn">
+                                <a href="#">Read more <img src="./assets/icons/icons-black-24x24/icon_more.svg" alt="read more"/></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="readMoreWithImg readmoreContent divWrap">
+            <div class="read-more-with-img read-more-content div-wrap">
                 <div class="container">
                     <div class="row">
                         <h3>How it works</h3>
                     </div>
                 </div>
-                <img class="mobImg" src="./assets/img/body_homepage.jpg" alt="Lorem Ipsum is simply dummy text"/>
-                <div class="paralax" style="background-image: url(./assets/img/body_homepage.jpg);"></div>
-
+                <div class="container ful-image">
+                    <div class="row">
+                        <img class="mob-img" src="./assets/img/body_homepage.jpg" alt="Lorem Ipsum is simply dummy text"/>
+                    </div>
+                </div>
                 <div class="container">
                     <div class="row">
-                        <div class="rdContent">
+                        <div class="rd-content">
                             <p>The registration is free of charge for you. To find the perfect match for you, we've come
                                 up with a simple process that we go through together in a few steps.</p>
                         </div>
-                        <div class="readmoreBtn">
-                            <button>Read more <img src="./assets/icons/icons-black-24x24/icon_more.svg" alt="read more"/></button>
+                        <div class="read-more-btn">
+                            <a href="#">Read more <img src="./assets/icons/icons-black-24x24/icon_more.svg" alt="read more"/></a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="divWrap pt-4">
+            <div class="div-wrap">
                 <div class="container">
-                    <div class="flex-colum-30">
-                        <div class="boxWithBtn">
+                    <div class="flex-colum-20">
+                        <div class="box-with-btn">
                             <h3>Find manny or nanny</h3>
                             <p>Looking for childcare? We match you with mannies and nannies that fit you — get started
                                 now and
                                 sign up.</p>
-                            <div class="btn_2">
+                            <div class="btn-2">
                                 <button>Register</button>
                             </div>
                         </div>
-                        <div class="boxWithBtn">
-                            <h3>Find manny or nanny</h3>
-                            <p>Looking for childcare? We match you with mannies and nannies that fit you — get started
-                                now and
-                                sign up.</p>
-                            <div class="btn_2">
+                        <div class="box-with-btn">
+                            <h3>Find job</h3>
+                            <p>Do you have experience tutoring children in a private setting, as a student, full time or part time? Then become a manny or nanny now and sign up.</p>
+                            <div class="btn-2">
                                 <button>Register</button>
                             </div>
                         </div>
@@ -138,32 +142,34 @@
                 </div>
             </div>
 
-            <div class="flex-colum-40 pt-4 divWrap">
-                <img class="mobImg" src="./assets/img/body-for-mannynanny.jpg" />
-                <div class="paralax" style="background-image: url(./assets/img/body-for-mannynanny.jpg);"></div>
-
-                <div class="readmoreContent pt-3 pb-3 pt-lg-5 pb-lg-5 mt-lg-5 bg-light-gray shadow-custom">
+            <div class="academyWrap flex-colum-40 div-wrap">
+                <div class="container ful-image">
+                    <div class="row">
+                        <img class="mob-img" src="./assets/img/body_for-mannynanny.jpg" />
+                    </div>
+                </div>
+                <div class="read-more-content pt-3 pb-3 pt-lg-5 pb-lg-5 mt-lg-5 bg-light-gray shadow-custom">
                     <div class="container">
                         <div class="row">
                             <h3>Our manny+nanny — Academy</h3>
-                            <div class="rdContent">
+                            <div class="rd-content">
                                 <p>Our goal is to provide the best qualified care. That's why our manny+nanny — Academy
                                     offers regular online courses to further educate our mannies and nannies. Among
                                     other things, there are courses on how to do homework perfectly or first aid
                                     courses, which are conducted by our trained team. Simply register yourself or your
                                     care.</p>
                             </div>
-                            <div class="readmoreBtn">
-                                <button>Read more <img src="./assets/icons/icons-black-24x24/icon_more.svg" alt="Read more"/></button>
+                            <div class="read-more-btn">
+                                <a href="#">Read more <img src="./assets/icons/icons-black-24x24/icon_more.svg" alt="read more"/></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="readmoreContent pb-3 pt-lg-5 pb-lg-5">
+                <div class="read-more-content pb-5 pt-lg-5 pb-lg-5">
                     <div class="container">
                         <div class="row">
                             <h3>All for all — the concept</h3>
-                            <div class="rdContent">
+                            <div class="rd-content">
                                 <p>We take the role of mediation very seriously and offer an open platform for those
                                     seeking and offering childcare — regardless of gender, age, origin, culture,
                                     sexuality and religion. Differences are an opportunity and an asset for everyone. We
@@ -176,12 +182,12 @@
 
         </div>
     </section>
-    <section id="footerWrap" class="bg-light-gray-2 pt-4 pb-4">
+    <section id="footer-wrap" class="footer-wrap bg-light-gray-2">
         <div class="container">
             <div class="row">
                 <div class="footer">
-                    <div class="ftMenuWrap">
-                        <h4 class="pb-3">manny+nanny — Agency</h4>
+                    <div class="ft-menu-wrap">
+                        <h4>manny+nanny — Agency</h4>
                         <ul>
                             <li><a href="#">Homepage</a></li>
                             <li><a href="#">For families</a></li>
@@ -194,7 +200,7 @@
                             <li><a href="#">Academy</a></li>
                         </ul>
                     </div>
-                    <div class="ftMenuWrap">
+                    <div class="ft-menu-wrap">
                         <h4 class="pb-3">Legal</h4>
                         <ul>
                             <li><a href="#">Cookie settings</a></li>
@@ -203,9 +209,9 @@
                             <li><a href="#">Imprint</a></li>
                         </ul>
                     </div>
-                    <div class="ftSocial">
+                    <div class="ft-social">
                         <h4>manny+nanny — Agency</h4>
-                        <div class="socialBtn">
+                        <div class="social-btn">
                             <a href="#"><img src="./assets/icons/icons-final-colors-24x24/icon_instagram.svg" alt="Manny Nany instagram" /></a>
                             <a href="#"><img src="./assets/icons/icons-final-colors-24x24/icon_facebook.svg" alt="Manny Nany facebook" /></a>
                             <a href="#"><img src="./assets/icons/icons-final-colors-24x24/icon_tiktok.svg" alt="Manny Nany tiktok" /></a>
@@ -221,5 +227,4 @@
     <script src="./js/custom.js" async defer></script>
 
 </body>
-
 </html>
