@@ -14,7 +14,8 @@
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/how-it-work.css">
+    <link rel="stylesheet" href="./css/aboutUs.css">
 
 </head>
 
@@ -67,7 +68,7 @@
         <div class="top-img-wrap">
             <div class="container ful-image">
                 <div class="row">
-                    <img class="mob-img" src="./assets//img/header_contact.jpg"
+                    <img class="mob-img" src="./assets/img/header_about-us.jpg"
                         alt="Lorem Ipsum is simply dummy text" />
                 </div>
             </div>
@@ -77,15 +78,34 @@
             <div class="">
                 <div class="container">
                     <div class="row">
-                        <h2 class="page-title">Contact</h2>
+                        <h2 class="page-title">About us</h2>
                         <div class="contact-content">
-                            <h3>We are here for you!</h3>
+                            <h3>Placement agency with heart</h3>
                             <div class="contact-content-description">
-                                <p>If you have any questions, need more information, or simply want to share your
-                                    concerns with us, we're here to help. We look forward to hearing from you.</p>
+                                <p>We want to make families happy — and provide a place for mannies and nannies to find
+                                    a good job. Reconciling work and children in a relaxed way, care with family-like
+                                    closeness when everyday family life makes more care necessary at short notice, or
+                                    simply a short break from children. For this you want the best, kindest and most
+                                    competent support. We can help and get them to you! Therefore, we have put a lot of
+                                    effort into our placement process and structured it in a self-explanatory way to
+                                    make your search as uncomplicated as possible.
+
+                                </p>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="tab-btn-wrap">
+                <button class="tab-btn active">For families</button>
+                <button class="tab-btn">For mannies and nannies</button>
+            </div>
+            <div class="tab-cnt-wrap">
+                <div class="tabs active">
+
+                </div>
+                <div class="tabs">
+
                 </div>
             </div>
             <div class="contact-form-container">
@@ -98,18 +118,36 @@
 
                         <form class="flex-colum-10 ">
 
-                            <select class="custome-dropdown text-input ">
-                                <option value="volvo">manny+nanny location</option>
-                                <option value="saab">Saab</option>
-                                <option value="opel">Opel</option>
-                                <option value="audi">Audi</option>
-                            </select>
-                            <select class="custome-dropdown text-input ">
-                                <option value="salutation">Salutation</option>
-                                <option value="saab">Saab</option>
-                                <option value="opel">Opel</option>
-                                <option value="audi">Audi</option>
-                            </select>
+                            <div class="dropdown">
+                                <div class="dropdown-button d-flex justify-content-between" onclick="toggleDropdown()">
+                                    <p>manny+nanny location</p>
+                                    <img style="width: 24px; height: 24px;"
+                                        src="./assets/icons/icons-final-colors-24x24/icon_drop-down-grey.svg" alt="">
+                                </div>
+                                <div class="dropdown-content" id="dropdownContent">
+                                    <div onclick="selectOption('Option 1')">Option 1</div>
+                                    <div onclick="selectOption('Option 2')">Option 2</div>
+                                    <div onclick="selectOption('Option 3')">Option 3</div>
+
+                                </div>
+                            </div>
+
+                            <div class="dropdown2">
+                                <div class="dropdown-button2 d-flex justify-content-between"
+                                    onclick="toggleDropdown2()">
+                                    <p>Salutation</p>
+                                    <img style="width: 24px; height: 24px;"
+                                        src="./assets/icons/icons-final-colors-24x24/icon_drop-down-grey.svg" alt="">
+                                </div>
+                                <div class="dropdown-content2" id="dropdownContent2">
+                                    <div onclick="selectOption2('Option 1')">Option 1</div>
+                                    <div onclick="selectOption2('Option 2')">Option 2</div>
+                                    <div onclick="selectOption2('Option 3')">Option 3</div>
+
+                                </div>
+                            </div>
+
+
 
                             <input class="text-input" type="text" placeholder="Phone number (optional)">
                             <input class="text-input" type="email" placeholder="E-mail">
@@ -178,7 +216,7 @@
 
     <script src="./js/bootstrap.min.js" async defer></script>
     <script src="./js/custom.js" async defer></script>
-    <!-- <script src="./js/contact.js" async defer></script> -->
+
 
 </body>
 
