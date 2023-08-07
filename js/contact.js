@@ -1,10 +1,12 @@
 // dropdown menulist 1 -------------------
 function toggleDropdown() {
     var dropdownContent = document.getElementById("dropdownContent");
+    var dropdownContent2 = document.getElementById("dropdownContent2");
     if (dropdownContent.style.display === "block") {
         dropdownContent.style.display = "none";
     } else {
         dropdownContent.style.display = "block";
+        dropdownContent2.style.display = "none";
     }
 }
 
