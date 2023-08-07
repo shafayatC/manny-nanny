@@ -23,8 +23,8 @@
   outline: none;
   border: 1px solid #E1E6E6;
   padding-left: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-right: 15px;
   border-radius: 5px;
   color: #707070;
@@ -55,7 +55,7 @@
 
 @media only screen and (min-width: 978px) {
   .page-title {
-    font-size: 30px;
+    font-size: 24px;
     margin-top: 20px;
     font-weight: 700;
   }
