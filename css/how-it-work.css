@@ -76,3 +76,8 @@
 }
 
 /*==== tab style end ====*/
+@media only screen and (min-width: 978px) {
+	.how-it-work .div-wrap .flex-colum-20 {
+		grid-template-columns: 100%;
+	}
+}
