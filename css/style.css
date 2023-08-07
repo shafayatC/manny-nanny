@@ -22,6 +22,7 @@ h4 {
     padding-bottom: 10px;
 }
 p {  font-size: 16px;
+    /* line-height: 19px; */
     line-height: 19px;
     color: #484848;
     margin-bottom: 10px;
@@ -81,6 +82,14 @@ p {  font-size: 16px;
     gap: 40px
 }
 
+.margin-40{
+    margin-bottom: 40px;
+}
+
+.font-18{
+    font-size: 18px;
+}
+
 .bg-light-gray {
     background-color: #f8f8f8;
 }
@@ -118,6 +127,7 @@ p {  font-size: 16px;
     position: -webkit-sticky !important;
     position: sticky !important;
     top: 0;
+    z-index: 9;
 }
 
 .sticky::after {
@@ -305,6 +315,7 @@ p {  font-size: 16px;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding-bottom: 40px;
 }
 
 .read-more-content {
@@ -318,7 +329,8 @@ p {  font-size: 16px;
 }
 .rd-content p {
 	font-size: 16px;
-	line-height: 19px;
+	/* line-height: 19px; */
+	line-height: 20px;
 	color: #484848;
 	margin-bottom: 10px;
 }
@@ -462,7 +474,7 @@ p {  font-size: 16px;
     }
     .div-wrap .flex-colum-20 {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: repeat(auto-fit, minmax(400px, auto));
     }
     .logo a,.sticky .logo a {
         width: 120px;
@@ -474,7 +486,7 @@ p {  font-size: 16px;
     .paralax {display: none;}
     .page-title {
         padding-top: 0px;
-        padding-bottom: 60px;
+        padding-bottom: 40px;
     }
     .rd-content p {
         line-height: 30px;
@@ -495,4 +507,6 @@ p {  font-size: 16px;
     .ft-menu-wrap ul {
         border-bottom: none;
     }
+
+   
 }
