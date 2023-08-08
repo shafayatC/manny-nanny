@@ -130,6 +130,7 @@ p {  font-size: 16px;
     top: 0;
     z-index: 9;
     transition: all 1s;
+    display: block !important;
 }
 
 .sticky::after {
@@ -163,7 +164,7 @@ p {  font-size: 16px;
 .header-wrap {
     position: relative;
 }
-
+#sticky-header-wrap {display: none;}
 .hidden {
     display: none;
 }
@@ -234,7 +235,7 @@ p {  font-size: 16px;
 }
 
 
-#menu-wrap {
+.menu-wrap {
     visibility: hidden;
     opacity: 0;
     transition: 0.3s;
@@ -251,7 +252,7 @@ p {  font-size: 16px;
     border-radius: 0 0 14px 14px;
 }
 
-#menu-wrap::after {
+.menu-wrap::after {
     content: "";
     position: absolute;
     bottom: 16px;
@@ -270,7 +271,7 @@ p {  font-size: 16px;
 }
 
 
-#menu-wrap .menu-list:last-child {
+.menu-wrap .menu-list:last-child {
     border-bottom: none;
 }
 
@@ -280,7 +281,7 @@ p {  font-size: 16px;
     justify-content: end;
 }
 
-#mobile-menu {
+.mobile-menu {
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -288,8 +289,8 @@ p {  font-size: 16px;
     justify-content: center;
 }
 
-#stick_1,
-#stick_2 {
+.stick_1,
+.stick_2 {
     transition: 0.3s;
 }
 /*==== menu style end ====*/
@@ -445,8 +446,8 @@ p {  font-size: 16px;
     .logo {justify-content: center;}
     .sticky .logo {justify-content: end;}
     .menu-list a {color: #484848;}
-    #menu-wrap {padding-bottom: 30px;}
-    #menu-wrap::after {bottom: 25px;}
+    .menu-wrap {padding-bottom: 30px;}
+    .menu-wrap::after {bottom: 25px;}
     /*=== header & menu end ====*/
     .mob-img {padding: 0;}
 }
