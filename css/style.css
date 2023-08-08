@@ -123,11 +123,13 @@ p {  font-size: 16px;
 }
 /*===== default css style end ====*/
 /*===== menu style start ====*/
+
 .sticky {
     position: -webkit-sticky !important;
     position: sticky !important;
     top: 0;
     z-index: 9;
+    transition: all 1s;
 }
 
 .sticky::after {
@@ -150,8 +152,13 @@ p {  font-size: 16px;
 }
 
 .sticky .logo img {
+    transition: 1s;
     width: 130px;
 }
+.sticky {
+    position: relative; /* or any initial positioning */
+    /* other styling properties */
+  }
 
 .header-wrap {
     position: relative;

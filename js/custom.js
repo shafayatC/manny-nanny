@@ -39,17 +39,18 @@ const header = document.getElementById("header-wrap");
 const headerOffsetTop = header.offsetTop;
 const headerHeight = header.offsetHeight;
 
+  // Calculate the ending position of the header
+  // const endingPosition = headerOffsetTop + headerHeight;
+
 // Function to handle the scrolling event
 function handleScroll() {
   // Get the current scroll position and viewport height
   const scrollPosition = window.pageYOffset;
 
-  // Calculate the ending position of the header
-  const endingPosition = headerOffsetTop + headerHeight;
 
-  console.log("scrol pos : " + scrollPosition + " endPos : " + endingPosition);
+  // console.log("scrol pos : " + scrollPosition + " endPos : " + endingPosition);
   // Check if the scroll position is within the range of the header's ending position
-  if (scrollPosition >= endingPosition) {
+  if (scrollPosition >= 100) {
     // If yes, add a class to the header to make it sticky
     header.classList.add("sticky");
   } else {
