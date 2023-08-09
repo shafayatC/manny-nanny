@@ -38,21 +38,6 @@ input[id="repeat-password"]:focus {
 
 
 
-.custome-visible-reg {
-    
-    background: url('../assets/icons/icons-black-24x24/icon_visibility-on.svg') 0 0 no-repeat;
-    width: 100%;
-    background-position: 96% ;
-    color: #484848;
-  }
-.custome-visible-reg2 {
-    
-    background: url('../assets/icons/icons-black-24x24/icon_visibility-on.svg') 0 0 no-repeat;
-    width: 100%;
-    background-position: 96% ;
-    color: #484848;
-  }
-
   .text-14px{
     font-size: 14px;
     line-height: 0;
@@ -110,6 +95,19 @@ font-size: 14px;
 
 .registration-box{
   margin-top: 65px;
+
+}
+
+.span-visible{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+
+}
+.span-visible-2{
+  position: absolute;
+  right: 15px;
+  top: 15px;
 
 }
 

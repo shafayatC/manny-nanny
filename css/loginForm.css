@@ -94,6 +94,17 @@ input[type="password"]:focus {
       justify-content: center;
     }
   }
-  
+
+  .span-visible{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+
+  }
+  .span-visible-off{
+    position: absolute;
+    right: 45px;
+    top: 15px;
+  }
 
   
