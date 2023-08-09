@@ -1,0 +1,18 @@
+/* popup style start */
+.pop-content-wrap {
+	padding-top: 52px;
+}
+.info-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.info-wrapper h5 {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 22px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.poplogo {
+	justify-content: center;
+}
