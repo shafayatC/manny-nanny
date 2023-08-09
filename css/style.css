@@ -1,9 +1,9 @@
-@import url('./fonts/glober_font.css');
+@import url('./fonts/stylesheet.css');
 
 /* default css style */
 html,
 body {
-    font-family: 'glober', sans-serif;
+    font-family: 'Glober', sans-serif;
 }
 
 h3 {
@@ -26,6 +26,27 @@ p {  font-size: 16px;
     line-height: 19px;
     color: #484848;
     margin-bottom: 10px;
+}
+.btn_2_wrap {
+	text-align: center;
+	padding-top: 20px;
+}
+.btn_1 {
+    background: #009797;
+    border: none;
+    color: #ffff;
+    font-weight: bold;
+    padding: 14px;
+}
+.btn_2 {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+	padding: 10px 33px;
+	background: #C81E69;
+	border: none;
+	color: #fff;
+	border-radius: 5px;
 }
 .flex-colum {
     display: flex;
@@ -515,6 +536,4 @@ p {  font-size: 16px;
     .ft-menu-wrap ul {
         border-bottom: none;
     }
-
-   
 }

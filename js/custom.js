@@ -85,7 +85,7 @@ const headerStickyFunc = () => {
 
 
 }
-/* header sticky end */
+
 
 /* tab script start*/
 const tabFunc = () => {
@@ -113,9 +113,30 @@ const tabFunc = () => {
     tabBtn[i].addEventListener('click', () => tabActivateFunc(i), false);
   }
 }
+
+/* popup script */
+const popupOpen = (id) => {
+  const popup = document.getElementById(id);
+  popup.classList.add('active'); 
+}
+const popupClose = (id) => {
+  const popup = document.getElementById(id);
+  popup.classList.remove('active'); 
+}
 /* tab script end*/
 
+hideMe = (id) => {
+  const hideElement = document.getElementById(id);
+  hideElement.style.display = 'none';
+}
+showMe =(id) => {
+  const hideElement = document.getElementById(id);
+  hideElement.style.display = 'block';
+}
 
 headerStickyFunc(); 
 menuFunc();
 tabFunc(); 
+
+popupFunc()
+ 
