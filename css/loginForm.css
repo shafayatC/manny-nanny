@@ -1,0 +1,79 @@
+body {
+    font-family: 'glober', sans-serif;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+label {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.2s ease-out;
+    background-color: white;
+    padding: 0 5px;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px 0 14px 16px;
+    border: 1px solid #E1E6E6;
+    border-radius: 5px;
+    transition: border-color 0.2s;
+    font-size: 16px;
+    outline: none;
+
+}
+
+input[type="password"]:focus {
+    border-color: #C81E69;
+}
+
+
+
+.custome-visible {
+    
+    background: url('../assets/icons/icons-black-24x24/icon_visibility-on.svg') 0 0 no-repeat;
+    width: 100%;
+    background-position: 96% ;
+    color: #484848;
+  }
+
+  .text-14px{
+    font-size: 14px;
+    line-height: 0;
+    padding-top: 5px;
+  }
+
+  .text-17px{
+    font-size: 17px;
+    padding-top: 10px;
+  }
+
+  .login-btn{
+    background-color:#EFC5D8;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-family: bold;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  .register-a{
+    color: #C81E69;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  
