@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Glober';
+    src: url('GloberRegular.eot');
+    src: url('GloberRegular.eot?#iefix') format('embedded-opentype'),
+        url('GloberRegular.woff2') format('woff2'),
+        url('GloberRegular.woff') format('woff'),
+        url('GloberRegular.ttf') format('truetype'),
+        url('GloberRegular.svg#GloberRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glober';
+    src: url('GloberBold.eot');
+    src: url('GloberBold.eot?#iefix') format('embedded-opentype'),
+        url('GloberBold.woff2') format('woff2'),
+        url('GloberBold.woff') format('woff'),
+        url('GloberBold.ttf') format('truetype'),
+        url('GloberBold.svg#GloberBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glober';
+    src: url('GloberLight.eot');
+    src: url('GloberLight.eot?#iefix') format('embedded-opentype'),
+        url('GloberLight.woff2') format('woff2'),
+        url('GloberLight.woff') format('woff'),
+        url('GloberLight.ttf') format('truetype'),
+        url('GloberLight.svg#GloberLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glober';
+    src: url('GloberSemiBold.eot');
+    src: url('GloberSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('GloberSemiBold.woff2') format('woff2'),
+        url('GloberSemiBold.woff') format('woff'),
+        url('GloberSemiBold.ttf') format('truetype'),
+        url('GloberSemiBold.svg#GloberSemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glober';
+    src: url('GloberThin.eot');
+    src: url('GloberThin.eot?#iefix') format('embedded-opentype'),
+        url('GloberThin.woff2') format('woff2'),
+        url('GloberThin.woff') format('woff'),
+        url('GloberThin.ttf') format('truetype'),
+        url('GloberThin.svg#GloberThin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
