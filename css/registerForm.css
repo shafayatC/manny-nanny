@@ -38,7 +38,14 @@ input[id="repeat-password"]:focus {
 
 
 
-.custome-visible {
+.custome-visible-reg {
+    
+    background: url('../assets/icons/icons-black-24x24/icon_visibility-on.svg') 0 0 no-repeat;
+    width: 100%;
+    background-position: 96% ;
+    color: #484848;
+  }
+.custome-visible-reg2 {
     
     background: url('../assets/icons/icons-black-24x24/icon_visibility-on.svg') 0 0 no-repeat;
     width: 100%;
@@ -87,11 +94,35 @@ font-size: 14px;
 
   .chcek-input{
     margin-right: 8px;
-    height: 18px;
-    width: 18px;
+    height: 24px;
+    width: 24px;
     
   }
-  .chcek-input :checked{
-    -webkit-appearance: none;
+  .active-btn {
+    background-color: #C81E69;
+    color: white;
+}
+
+.chcek-input:checked{
     color: #C81E69;
+}
+
+
+.registration-box{
+  margin-top: 65px;
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .reg-box{
+    width: 400px;
   }
+
+  .body-wrapper{
+    
+    display: flex;
+    justify-content: center;
+  }
+}
