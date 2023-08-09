@@ -1,0 +1,23 @@
+.popup-body-wrapper {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    background: #fff;
+    display: none;
+}
+.popup-body-wrapper.active {
+    display: block;
+}
+
+.pop-closer {
+    text-align: right;
+}
+.pop-closer button {
+	border: none;
+	background: transparent;
+	padding: 0;
+}
+.poplogo {
+	padding-top: 7px;
+}
