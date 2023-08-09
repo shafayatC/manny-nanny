@@ -40,7 +40,7 @@ input[type="password"]:focus {
 
 .custome-visible {
     
-    background: url('../assets/icons/icons-black-24x24/icon_visibility-on.svg') 0 0 no-repeat;
+    background: url("../assets/icons/icons-black-24x24/icon_visibility-on.svg") 0 0 no-repeat;
     width: 100%;
     background-position: 96% ;
     color: #484848;
@@ -75,5 +75,25 @@ input[type="password"]:focus {
     font-weight: bold;
     text-decoration: none;
   }
+
+  .login-box{
+    margin-top: 65px;
+
+  }
+
+
+
+  @media only screen and (min-width: 768px) {
+    .log-box{
+      width: 400px;
+    }
+  
+    .body-wrapper{
+      
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
 
   
