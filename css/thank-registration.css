@@ -16,3 +16,8 @@
 .poplogo {
 	justify-content: center;
 }
+.next-btn {
+	position: absolute;
+	right: 0;
+	bottom: 20px;
+}
