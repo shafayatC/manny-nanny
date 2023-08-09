@@ -86,6 +86,7 @@ const headerStickyFunc = () => {
 
 }
 
+
 /* tab script start*/
 const tabFunc = () => {
 
@@ -114,8 +115,6 @@ const tabFunc = () => {
 }
 
 /* popup script */
-
-
 const popupOpen = (id) => {
   const popup = document.getElementById(id);
   popup.classList.add('active'); 
@@ -124,6 +123,7 @@ const popupClose = (id) => {
   const popup = document.getElementById(id);
   popup.classList.remove('active'); 
 }
+/* tab script end*/
 
 hideMe = (id) => {
   const hideElement = document.getElementById(id);
@@ -139,3 +139,4 @@ menuFunc();
 tabFunc(); 
 
 popupFunc()
+ 
