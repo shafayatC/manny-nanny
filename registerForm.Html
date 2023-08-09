@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/registerForm.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+
+        <form>
+            <div class="form-group">
+                <input type="text" id="email" name="email" onfocus="showLabel('email')" onblur="hideLabel('email')">
+                <label for="email">E-mail</label>
+            </div>
+            <div class="form-group">
+                <input class="custome-visible" type="password" id="password" name="password"
+                    onfocus="showLabel('password')" onblur="hideLabel('password')">
+                <label for="password">Password</label>
+            </div>
+            <div class="form-group">
+                <input class="custome-visible" type="password" id="repeat-password" name="repeat-password"
+                    onfocus="showLabel('repeat-password')" onblur="hideLabel('repeat-password')">
+                <label for="repeat-password">Repeat password</label>
+            </div>
+            <div class="d-flex ">
+                <input class="chcek-input" type="checkbox" name="check-reg" id="check-reg">
+                <p class="check-p">I accept the <span class="check-span">terms of use</span> and the <span
+                        class="check-span">privacy policy</span> of the babysitting agency
+                    manny+nanny</p>
+            </div>
+            <button id="reg-btn" class="reg-btn">Register</button>
+        </form>
+    </div>
+    <script src="./js/bootstrap.min.js" async defer></script>
+    <script src="./js/registerForm.js"></script>
+</body>
+
+</html>
