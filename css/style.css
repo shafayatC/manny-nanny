@@ -27,6 +27,14 @@ p {  font-size: 16px;
     color: #484848;
     margin-bottom: 10px;
 }
+.btn_1 {
+    background: #009797;
+    border: none;
+    color: #ffff;
+    font-weight: bold;
+    padding: 14px;
+}
+
 .flex-colum {
     display: flex;
     flex-direction: column;
@@ -515,6 +523,4 @@ p {  font-size: 16px;
     .ft-menu-wrap ul {
         border-bottom: none;
     }
-
-   
 }
