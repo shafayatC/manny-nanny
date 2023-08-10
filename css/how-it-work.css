@@ -32,9 +32,9 @@
 	border-radius: 50%;
 	color: #fff;
 	font-size: 16px;
-	font-family: glober-semiBold;
 	line-height: 19px;
 	padding: 4px 9px 1px 8px;
+	font-weight: 600;
 }
 .act-title {
 	padding-left: 12px;
@@ -74,7 +74,9 @@
 .accordion-body {
 	padding: 3px 16px 20px 16px;
 }
-
+.accordion-body p {
+	margin-bottom: 0px;
+}
 /*==== tab style end ====*/
 @media only screen and (min-width: 978px) {
 	.how-it-work .div-wrap .flex-colum-20 {

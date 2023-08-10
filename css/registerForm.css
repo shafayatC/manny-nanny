@@ -113,14 +113,14 @@ font-size: 14px;
 .container-checkbox {
   display: block;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
+  padding-left: 26px;
   cursor: pointer;
   font-size: 22px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  height: 20px;
 }
 
 /* Hide the browser's default checkbox */
