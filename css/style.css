@@ -23,7 +23,7 @@ h4 {
 }
 p {  font-size: 16px;
     /* line-height: 19px; */
-    line-height: 19px;
+    line-height: 20px;
     color: #484848;
     margin-bottom: 10px;
 }
@@ -132,6 +132,7 @@ p {  font-size: 16px;
 }
 
 .shadow-custom {
+    -webkit-box-shadow: 0px 3px 6px #00000029;
     box-shadow: 0px 3px 6px #00000029;
 }
 .paralax {
@@ -150,6 +151,8 @@ p {  font-size: 16px;
     position: sticky !important;
     top: 0;
     z-index: 9;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s;
     display: block !important;
 }
@@ -165,7 +168,8 @@ p {  font-size: 16px;
     background-color: rgba(255, 255, 255, 0.1);
     /* You can adjust the opacity (last value) for the blur effect */
     /* Add a blur effect using backdrop-filter */
-    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);    
     /* Adjust the blur amount as desired */
 }
 
@@ -350,11 +354,10 @@ p {  font-size: 16px;
 .read-more-content {
     display: flex;
     flex-direction: column;
-    gap: 5px;
 }
 
 .rd-content {
-    /* padding-top: 10px; */
+    padding-top: 10px;
 }
 .rd-content p {
 	font-size: 16px;
@@ -371,12 +374,13 @@ p {  font-size: 16px;
 }
 
 .read-more-btn a {
-    background-color: transparent;
-    color: #000000;
-    border: none;
-    font-size: 14px;
-    font-family: glober-semiBold;
-    text-decoration: none;
+	background-color: transparent;
+	color: #000000;
+	border: none;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: 'Glober';
+	font-weight: bold;
 }
 .read-more-btn img {
 	margin-top: -3px;
@@ -527,10 +531,29 @@ p {  font-size: 16px;
     gap: 10px;
 }
 
-/*=== footer end ====*/
-/* #mobile-menu {
-    display: none;
-} */
+/*=== start-registration page start ====*/
+.reg-btn-wrap {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.reg-btn {
+	display: grid;
+	grid-template-columns: 88% auto;
+	padding: 32px 0px 27px 20px;
+	background: transparent;
+	border: none;
+}
+.reg-btn span {
+	font-size: 17px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #484848;
+    text-align: start;
+}
+.reg-btn img {
+	height: 19px;
+}
 /* responsive css style */
 /*mobile */
 @media only screen and (max-width: 576px) {

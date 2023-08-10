@@ -47,7 +47,7 @@
 
 .single-profile-h{
   color: #000000;
-  font-weight: 700;
+  font-weight: bold;
   margin-bottom: 5px;
   padding-left: 5px;
   font-size: 16px;
@@ -99,12 +99,12 @@
     padding-left: 15px;
     font-size: 16px;
   }
-  .multiple-profile-pg{
-    color: #000000;
+  .multiple-profile-pg {
+    color: #484848;
     padding-left: 15px;
-    font-size: 16px;
-    padding-bottom: 15px;
-    
+    font-size: 14px;
+    padding-bottom: 10px;
+    line-height: 17px;
   }
 
   .academy-part{

@@ -55,9 +55,10 @@ input[id="repeat-password"]:focus {
     border-style: none;
     border-radius: 5px;
     color: white;
-    font-family: bold;
+    font-weight: bold;
     font-size: 16px;
     margin-top: 30px;
+    line-height: 20px;
   }
 
   .register-a{
@@ -108,7 +109,6 @@ font-size: 14px;
   right: 15px;
   top: 15px;
   cursor: pointer;
-
 }
 
 
