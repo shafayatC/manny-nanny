@@ -1,12 +1,10 @@
-body {
-    font-family: 'glober', sans-serif;
-}
-
 .form-group {
     margin-bottom: 15px;
     position: relative;
 }
-
+#toggleVisibility, #toggleVisibility-2 {
+  cursor: pointer;
+}
 label {
     display: block;
     position: absolute;
