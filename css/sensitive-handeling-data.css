@@ -1,0 +1,23 @@
+.data-handle-page-h{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.data-handle-page-first-div{
+margin-top: 53px;
+}
+
+.data-handle-page-p{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.data-handle-page-p span{
+    color: #C81E69;
+}
+
+.data-handle-page-second-div{
+    margin-top: 40px;
+}
+
