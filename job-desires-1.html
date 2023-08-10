@@ -11,13 +11,14 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/custome-structure.css">
     <link rel="stylesheet" href="./css/looking-for.css">
+    <link rel="stylesheet" href="./css/job-desires.css">
 
 </head>
 
 <body>
 
     <section class="popup-body-wrapper active" id="popupWrapper">
-        <div class="pop-closer px-3 pt-1">
+        <div class="pop-closer px-3 pt-1 ">
             <button onclick="popupClose('popupWrapper')">
                 <img src="./assets/icons/icons-header-big/icon_close-big.svg" alt="close" />
             </button>
@@ -35,13 +36,21 @@
             </div>
         </div>
         <div class="pop-content-wrap">
-            <div class="container">
-                <div class="looking-for-page-div">
-                    <h1 class="looking-for-page-h">What are you looking for?</h1>
-                    <p class="looking-for-page-p">Are you looking for a nice family that needs support or do you need
-                        loving childcare?</p>
+            <div class="container ">
+                <div>
+
+                    <div class="progress ">
+                        <div class="progress-bar bg-custom" role="progressbar" aria-valuenow="5" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+
+                </div>
+                <div class="job-desire-page-div">
+                    <h1 class="job-desire-page-h">Job Desires</h1>
+                    <p class="job-desire-page-p">How many children could you take care of?</p>
                 </div>
                 <div>
+                    <p class="job-desire-page-p">Number of children</p>
                     <div class="radio-input-field">
                         <label class="radio-label"><input type="radio" class="radio-input-class" name="e"
                                 onchange="handleRadioChange(this)"> A
@@ -51,16 +60,23 @@
                         <label class="radio-label"><input type="radio" class="radio-input-class" name="e"
                                 onchange="handleRadioChange(this)"> A manny or
                             nanny</label>
-
-
+                    </div>
+                    <div class="radio-input-field">
+                        <label class="radio-label"><input type="radio" class="radio-input-class" name="e"
+                                onchange="handleRadioChange(this)"> Only one child</label>
                     </div>
                 </div>
 
             </div>
         </div>
-        <div class=" next-btn">
+        <div class=" next-btn ">
             <div class="container">
                 <button class="bottom-btn">Next</button>
+            </div>
+        </div>
+        <div class=" back-btn">
+            <div class="container">
+                <button class="back-bottom-btn">Next</button>
             </div>
         </div>
     </section>
