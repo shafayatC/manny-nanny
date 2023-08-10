@@ -98,12 +98,14 @@ input[type="password"]:focus {
     position: absolute;
     right: 15px;
     top: 15px;
+    cursor: pointer;
 
   }
   .span-visible-off{
     position: absolute;
     right: 45px;
     top: 15px;
+    cursor: pointer;
   }
 
   
