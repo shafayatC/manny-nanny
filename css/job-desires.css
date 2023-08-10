@@ -1,0 +1,65 @@
+.bg-custom{
+
+	background-color: #C81E69 !important;
+}
+
+
+
+.progress-bar{
+    width: 15%;
+}
+.progress-bar-2{
+    width: 25%;
+}
+
+.progress{
+    margin-top: 26px;
+    height: 7px !important;
+}
+
+
+.job-desire-page-h{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.job-desire-page-div{
+margin-top: 26px;
+margin-bottom: 20px;
+}
+
+.job-desire-page-p{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.mul-checkbox{
+    font-size: 16px !important;
+}
+
+/* multi checkbox---------- */
+.checkbox-input-field{
+    cursor: pointer;
+    padding: 14px 0 14px 17px;
+    border: 1px solid #E1E6E6;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .multi-checkbox{
+    padding-left: 36px;
+  }
+
+  .mul-checkmark{
+    height: 18px !important;
+    width: 18px !important;
+  }
+
+  .container-checkbox .mul-checkmark::after{
+    width: 8px !important;
+    height: 11px !important;
+  }
+
+  
+  

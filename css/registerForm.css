@@ -5,7 +5,7 @@
 #toggleVisibility, #toggleVisibility-2 {
   cursor: pointer;
 }
-label {
+.form-group label {
     display: block;
     position: absolute;
     top: 50%;
@@ -55,9 +55,10 @@ input[id="repeat-password"]:focus {
     border-style: none;
     border-radius: 5px;
     color: white;
-    font-family: bold;
+    font-weight: bold;
     font-size: 16px;
     margin-top: 30px;
+    line-height: 20px;
   }
 
   .register-a{
@@ -100,15 +101,15 @@ font-size: 14px;
   position: absolute;
   right: 15px;
   top: 15px;
+  cursor: pointer;
 
 }
 .span-visible-2{
   position: absolute;
   right: 15px;
   top: 15px;
-
+  cursor: pointer;
 }
-
 
 
 @media only screen and (min-width: 768px) {

@@ -1,0 +1,59 @@
+.popup-body-wrapper {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    background: #fff;
+    display: none;
+}
+.popup-body-wrapper.active {
+    display: block;
+}
+
+.pop-closer {
+    text-align: right;
+}
+.pop-closer button {
+	border: none;
+	background: transparent;
+	padding: 0;
+}
+.poplogo {
+	padding-top: 7px;
+}
+
+.next-btn {
+	position: absolute;
+	right: 16px;
+	bottom: 50px;
+}
+
+.bottom-btn{
+    font-size: 16px;
+    /* line-height: 20px; */
+    font-weight: bold;
+    padding: 10px 40px;
+    background: #C81E69;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+
+}
+.back-btn {
+	position: absolute;
+	left: 16px;
+	bottom: 50px;
+}
+
+.back-bottom-btn{
+    font-size: 16px;
+    /* line-height: 20px; */
+    font-weight: bold;
+    padding: 10px 40px;
+    background: white;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #E1E6E6;
+
+}

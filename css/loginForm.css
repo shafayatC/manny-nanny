@@ -1,6 +1,3 @@
-body {
-    font-family: 'glober', sans-serif;
-}
 
 .form-group {
     margin-bottom: 15px;
@@ -65,9 +62,11 @@ input[type="password"]:focus {
     border-style: none;
     border-radius: 5px;
     color: white;
-    font-family: bold;
+    font-weight: bold;
     font-size: 16px;
     margin-top: 30px;
+    line-height: 20px;
+
   }
 
   .register-a{
@@ -99,12 +98,14 @@ input[type="password"]:focus {
     position: absolute;
     right: 15px;
     top: 15px;
+    cursor: pointer;
 
   }
   .span-visible-off{
     position: absolute;
     right: 45px;
     top: 15px;
+    cursor: pointer;
   }
 
   
