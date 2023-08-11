@@ -27,6 +27,7 @@ p {  font-size: 16px;
     color: #484848;
     margin-bottom: 10px;
 }
+.z-9999 {z-index: 9999 !important;}
 .btn_2_wrap {
 	text-align: center;
 	padding-top: 20px;
@@ -145,16 +146,19 @@ p {  font-size: 16px;
 }
 /*===== default css style end ====*/
 /*===== menu style start ====*/
-
+#header-wrap {
+	z-index: 999;
+	background: #ffff;
+}
 .sticky {
-    position: -webkit-sticky !important;
-    position: sticky !important;
-    top: 0;
-    z-index: 9;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
-    display: block !important;
+	position: fixed !important;
+	top: 0;
+	z-index: 9;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+	display: block !important;
+	width: 100%;
 }
 
 .sticky::after {
