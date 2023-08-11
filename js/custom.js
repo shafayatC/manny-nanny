@@ -1,6 +1,7 @@
 const menuFunc = () => {
   const menuBtn = document.getElementsByClassName("mobile-menu");
   const menu = document.getElementsByClassName("menu-wrap");
+  const headerSticky = document.getElementById("sticky-header-wrap");
 
   const stick_1 = document.getElementsByClassName("stick_1");
   const stick_2 = document.getElementsByClassName("stick_2");
@@ -8,7 +9,7 @@ const menuFunc = () => {
 
   var triggerBool = true
 
-  const toggleMenu = () => {
+  const toggleMenu = (n) => {
 
     if (triggerBool) {
       for (let i = 0; i < menu.length; i++) {
@@ -44,8 +45,49 @@ const menuFunc = () => {
     triggerBool = !triggerBool;
   }
 
+  const toggleMenu_2 = (n) => {
+
+    if (menu[n].style.visibility !== 'visible') {
+      for (let i = 0; i < menu.length; i++) {
+        menu[i].style.visibility = "hidden";
+        menu[i].style.opacity = "0";
+        menu[i].style.transform = "scaleY(0)"
+      }
+      /* menu button animation */
+      for (let i = 0; i < stick_2.length; i++) {
+        stick_2[i].style.display = 'none';
+      }
+      for (let i = 0; i < stick_1.length; i++) {
+        stick_1[i].style.display = 'block';
+      }
+      
+      menu[n].style.visibility = "visible";
+      menu[n].style.opacity = "1";
+      menu[n].style.transform = "scaleY(1)";
+
+      n > 0 && headerSticky.classList.add('z-9999');
+
+      /* menu button animation */
+      stick_2[n].style.display = 'block';
+      stick_1[n].style.display = 'none';
+
+
+    } else {
+      n > 0 && headerSticky.classList.remove('z-9999');
+      menu[n].style.visibility = "hidden";
+      menu[n].style.opacity = "0";
+      menu[n].style.transform = "scaleY(0)";
+
+      /* menu button animation */
+      stick_2[n].style.display = 'none';
+      stick_1[n].style.display = 'block';
+
+    }
+    triggerBool = !triggerBool;
+  }
+
   for (let i = 0; i < menuBtn.length; i++) {
-    menuBtn[i].addEventListener("click", toggleMenu)
+    menuBtn[i].addEventListener("click", () => toggleMenu_2(i))
   }
 
 }
@@ -56,7 +98,7 @@ const headerStickyFunc = () => {
   const headerSticky = document.getElementById("sticky-header-wrap");
 
   headerSticky.innerHTML = header.innerHTML;
-
+  headerSticky.classList.add("sticky");
   // Get the initial position and height of the header
   const headerOffsetTop = header.offsetTop;
   const headerHeight = header.offsetHeight;
@@ -81,7 +123,7 @@ const headerStickyFunc = () => {
   }
 
   // Attach the handleScroll function to the scroll event
-  window.addEventListener("scroll", handleScroll);
+  // window.addEventListener("scroll", handleScroll);
 
 
 }
@@ -117,11 +159,11 @@ const tabFunc = () => {
 /* popup script */
 const popupOpen = (id) => {
   const popup = document.getElementById(id);
-  popup.classList.add('active'); 
+  popup.classList.add('active');
 }
 const popupClose = (id) => {
   const popup = document.getElementById(id);
-  popup.classList.remove('active'); 
+  popup.classList.remove('active');
 }
 /* tab script end*/
 
@@ -129,14 +171,14 @@ hideMe = (id) => {
   const hideElement = document.getElementById(id);
   hideElement.style.display = 'none';
 }
-showMe =(id) => {
+showMe = (id) => {
   const hideElement = document.getElementById(id);
   hideElement.style.display = 'block';
 }
 
-headerStickyFunc(); 
+headerStickyFunc();
 menuFunc();
-tabFunc(); 
+tabFunc();
 
 popupFunc()
- 
+
