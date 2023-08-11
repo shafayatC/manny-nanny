@@ -482,18 +482,18 @@ p {  font-size: 16px;
     justify-content: center;
     padding-top: 20px;
 }
-
-.btn-2 button {
-	background: #c81e69;
-	color: #fff;
-	font-weight: bold;
-	border: none;
-	border-radius: 20px;
-	padding: 10px 40px;
-	transition: 0.3s;
+.btn-2 button, .btn-2 a {
+    background: #c81e69 !important;
+    color: #fff !important;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 40px;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
 }
-
-.btn-2 button:hover {
+.btn-2 a:hover {
     background: #a01853;
 }
 
