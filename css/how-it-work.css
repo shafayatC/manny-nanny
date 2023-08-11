@@ -6,7 +6,7 @@
 }
 .tab-btn-wrap {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: 50% 50%;
 }
 .tab-btn {
 	background: transparent;
@@ -25,6 +25,9 @@
 	border-bottom: 2px solid #C81E69;
 }
 .tabs {display: none;}
+.tabs .div-wrap {
+	padding-top: 40px;
+}
 .tabs.active {display: block;}
 
 .act-count {
