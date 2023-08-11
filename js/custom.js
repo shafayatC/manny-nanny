@@ -98,7 +98,7 @@ const headerStickyFunc = () => {
   const headerSticky = document.getElementById("sticky-header-wrap");
 
   headerSticky.innerHTML = header.innerHTML;
-
+  headerSticky.classList.add("sticky");
   // Get the initial position and height of the header
   const headerOffsetTop = header.offsetTop;
   const headerHeight = header.offsetHeight;
